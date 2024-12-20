@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2015/01/03/15/06/klee-587484_1280.png);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.gif {
+    width: 300px;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    display: block;
+    margin: 50px auto;
+    
+}
+
+.caixa {
+    width: 500px;
+    height: 400px;
+    background: #cfb706;
+    border-radius: 20px;
+    margin: 0 auto 40px;
+    margin-top: 50px;
+    padding: 50px 25px;
+    gap: 50px; /* ele é um dispositivo que coloca uma margem entre todos os intens */
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.5);
+}
+
+h1 {
+    color: #ffffff;
+    font-style: normal;
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 55px;
+    
+}
+
+h3 {
+    color: #772FD3;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 40px;
+    margin-top: 10px;
+}
+
+input {
+    width: 200px;
+    height: 35px;
+    margin: 20px 0px 10px 10px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding-left: 15px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 35px;
+    opacity: 0.7;
+
+}
+
+/*.result-number{
+    margin: 5px 130px;
+    padding-left: 40px;
+
+}*/
+
+button {
+    width: 250px;
+    height: 48px;
+    background: #772FD3;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 25px;
+    cursor: pointer;
+    box-shadow: 10px 10px 15px #5a5858;
+    margin: 30px 100px;
+
+}
+
+button:hover {
+    height: 60px;
+
+}
+
+button:active {
+    opacity: 0.8;
+    color: #772FD3;
+    background: #FFFFFF;
+}
